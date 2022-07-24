@@ -20,7 +20,7 @@ func _physics_process(delta):
 		0:
 			# Multiply by 60 to keep velocities somewhat 
 			# consistent after taking 'delta' into account.
-			collision = move_and_collide(velocity * (delta * 60))
+			collision = move_and_collide((velocity / 60) * (delta * 60))
 		1:
 			move_and_slide(velocity, up_direction)
 
