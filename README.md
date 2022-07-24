@@ -1,5 +1,5 @@
 # Godot-Kinematic-Entity
-A simple Godot 'Entity' class used to slightly simplify the 'Entity coding process'.
+A simple Godot 'Entity' class used to slightly simplify the '2D Entity coding process'.
 
 # Requirements
 * Godot Engine v3.x
