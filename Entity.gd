@@ -36,7 +36,7 @@ func animate(delta:float) -> void:
 
 # Override to create custom behavior upon taking damage.
 func take_damage() -> void:
-	if health >= 1:
+	if health > 1:
 		health -= 1
 	else:
 		die()
